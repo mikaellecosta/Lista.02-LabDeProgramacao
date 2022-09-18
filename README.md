@@ -321,7 +321,7 @@ int main(void) {
 ``` 
 
 ## Questão 9:
-A serie de Fibonacci  é formada pela seguinte sequencia: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... etc. 
+A serie de Fibonacci é formada pela seguinte sequencia: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... etc. 
 Escreva um algoritmo que gere a serie de Fibonacci ate o vigesimo termo.
 ``` c
 #include <stdio.h>

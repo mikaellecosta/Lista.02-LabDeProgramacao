@@ -30,7 +30,7 @@
 </p>
 
 # 📚 Lista 02 - Programação em C
-Lista de exercícios submetida na aula do dia 31/08/22.
+Lista de exercícios submetida na cadeira de Laboratório de Programação.
 
 ## Questão 1:
 Implemente um programa que tenha como entrada um numero (1-7) que corresponde a um dos dias da semana e imprima na tela o nome do dia correspondente (domingo, segunda, terça, quarta, quinta, sexta, sabado). 

@@ -226,6 +226,7 @@ Cada voto deve ser dado pelo numero do candidato, permitindo-se ainda o voto:
 int main() {
   int voto, branco=0, nulo=0, paulo=0, renata=0;
   float total;
+  char conf;
   
   for(int i = 0; ; i++){
   
@@ -238,18 +239,42 @@ int main() {
 
   switch(voto){
     case 7:
-    renata = renata + 1;
+    printf("Deseja votar em renata? s ou n?");
+    scanf("%s",&conf);
+    if (conf=='s'){
+      renata = renata + 1;
+    } else {
+      continue;
+    }
     break;
 
     case 5:
-    paulo = paulo + 1;
+    printf("Deseja votar em paulo? s ou n?");
+    scanf("%s",&conf);
+    if (conf=='s'){
+      paulo = paulo + 1;
+    } else {
+      continue;
+    }
     break;
 
     case 0:
-    branco = branco + 1;
+    printf("Deseja votar branco? s ou n?");
+    scanf("%s",&conf);
+    if (conf=='s'){
+      branco = branco + 1;
+    } else {
+      continue;
+    }
 
     default:
-    nulo = nulo + 1;
+    printf("Deseja votar nulo? s ou n?");
+    scanf("%s",&conf);
+    if (conf=='s'){
+      nulo = nulo + 1;
+    } else {
+      continue;
+    }
   }
 }
 
